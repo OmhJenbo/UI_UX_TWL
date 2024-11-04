@@ -1,0 +1,30 @@
+:root {
+     /* Variables for the main */
+    --colorBgMain:#68617c;
+    --fontMain: Arial, Helvetica, sans-serif;
+    
+    /* Variables for the header */
+    --colorBgHeader: #262858;
+    --colorTextHeader: #d6c37f;
+
+    /* Variables for the nav */
+    --colorNav: #506283;
+    --colorNavText: #c0c2c8; 
+
+    /* Variables for the buttons */
+    --colorButton: #582627;
+    --colorButtonText: #e4d7cc;
+
+    /* Quote */
+    --colorBgSecondary: #506283;
+    --colorQuoteText: #d8dad7;
+
+    /* Variable for the Articles  */
+    --colorCategoryHeaderText: #baae7f;
+    --colorBgArticleCards: #fffaf0;
+    
+    /* Variables for the footer */
+    --colorCreditsDescribtionOffcolor: #d3c37f;
+    --colorCreditsDescribtion: #f1f7f0;
+    --colorLegalText: #f1f7f0;
+}

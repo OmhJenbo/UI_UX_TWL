@@ -1,0 +1,74 @@
+@import 'styles.css';
+
+#conferenceImg {
+    width: 100%;
+    max-height: 400px;
+    margin-bottom: 1rem;
+}
+
+#conferenceImg img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 0.5rem;
+}
+
+#conferences {
+    display: grid;
+    grid-template-columns: 1fr; 
+    grid-gap: 1rem;
+}
+
+
+@media (min-width: 640px) {
+    #conferences {
+        grid-template-columns: 1fr 1fr; 
+    }
+}
+
+
+@media (min-width: 800px) {
+    #conferenceImg img {
+        content: url(../assets/images/tristan_1280.jpg);
+    }
+}
+
+
+#conferences > article {
+    background-color: var(--colorBgArticleCards);
+    font-size: small;
+    padding: 0.5rem;
+    border: solid thin var(--colorBgSecondary);
+    border-radius: 0.5rem;
+}
+
+
+#conferences > article:last-of-type {
+    margin-right: 0;
+}
+
+
+#conferences > article > p {
+    margin: 0;
+}
+
+
+.date:before {
+    content: url(../assets/images/microphone.png) " ";
+}
+
+.event, .capacity {
+    font-weight: bold;
+}
+
+.location, .venue {
+    display: inline-block;
+}
+
+.venue:before {
+    content: '(';
+}
+
+.venue:after {
+    content: ')';
+}
